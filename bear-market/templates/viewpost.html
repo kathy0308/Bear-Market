@@ -1,0 +1,19 @@
+<html lang="en">
+<head>    
+    <meta charset="UTF-8">    
+    <title>{{ title }}</title>
+</head>
+<body>
+    {% block content %}
+    {{ post.title}}
+    {{ author.nickname }}
+    {{ author.email}}
+    {{ author.phone }}
+    {{ post.date_published }}
+    {{ post.price}}
+    {{ post.location}}
+    {{ post.text}}
+    {{ post.expired }}
+    {% endblock %} 
+</body>
+</html>

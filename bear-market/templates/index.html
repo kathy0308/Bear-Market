@@ -1,0 +1,10 @@
+<html>
+    <head>
+      <title>Welcome to Bear Market </title>
+    </head>
+    <body>
+          {% for post in posts %}
+          <div><p>{{ post.uid.nickname }} says: <b>{{ post.text }}</b></p></div>
+          {% endfor %}
+    </body>
+</html>
